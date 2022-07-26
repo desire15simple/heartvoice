@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLay</title>
+    <link rel="icon" href="img/love.png">
+    <link rel="stylesheet" href="css/playButton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <audio src="sound/RiverFlowsInYou-Yiruma.mp3" id="idAudio"></audio>
+    <div class="container" onclick="play_Audio()">
+        <i type="button" class="fas fa-play"></i>
+    </div>
+    <button onclick="pause_Audio()" type="button">Pause</button>
+    <script src="js/audio.js"></script>
+</body>
+</html>
